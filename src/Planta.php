@@ -25,4 +25,16 @@ class Planta {
     public function calcularAguaSemanal() : float {
         return $this->aguaPorDia * 7;
     }
+
+    public function setNome(string $novoNome) : void {
+        $this->nome = $novoNome;
+    }
+
+    public function setEspecie(string $novoEspecie) : void {
+        $this->especie = $novoEspecie;
+    }
+
+    public function setAguaPorDia(string $novoAguaPorDia) : void {
+        $this->aguaPorDia = $novoAguaPorDia;
+    }
 }
