@@ -34,7 +34,7 @@ class Planta {
         $this->especie = $novoEspecie;
     }
 
-    public function setAguaPorDia(string $novoAguaPorDia) : void {
+    public function setAguaPorDia(float $novoAguaPorDia) : void {
         $this->aguaPorDia = $novoAguaPorDia;
     }
 }
